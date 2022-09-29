@@ -1,0 +1,10 @@
+﻿query GetBook{
+  book {
+    id
+    title
+    citation {
+      title
+      publisher
+    }
+  }
+}
